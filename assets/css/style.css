@@ -13,12 +13,14 @@ body{
     border-radius: 20px;
 }
 button{
-    padding: 10px 20px;
+    padding: 15px 35px;
     background-color: #7EC012;
     border-radius: 5px;
     color: #EDEAE5;
     border-color: #7EC012;
     border-style: none;
+    margin-top:5%;
+    margin-left: 35%;
 }
 button:hover{
     background-color: #EDEAE5;
@@ -27,7 +29,7 @@ button:hover{
 }
 /* -------- NAV + LOGO --------*/
 .logo{
-    width: 50px;
+    width: 90px;
 }
 nav ul{
     display: flex;
@@ -63,7 +65,7 @@ article{
 .nav-item:last-child{
 margin-right: 5%;
 }
-h5{
+article h5{
     margin-left: 3%;
     font-size: 20px;
 }
@@ -75,4 +77,39 @@ h5{
     
 }
 
+/* Start default style for main */
+.product{
+    margin: 8% 0;
+}
+.product li{
+    line-height: 50px;
+}
+
+/* Ende default style for main */
 /* -------- Heiderlberg product --------*/
+.product-heidelberg{
+    display: flex;
+    justify-content: center;
+}
+.product-heidelberg ul{
+    margin-left: 5%;
+}
+.heidelberg-info{
+    margin-left: 3%;
+}
+.heidelberg-info h3{
+    margin-left: 12%;
+}
+
+/* -------- Easee product --------*/
+
+.product-Easee{
+    display: flex;
+    justify-content: center;
+}
+.Easee-info ul{
+    padding: 0px;
+}
+.Easee-info{
+    margin-right: 3%;
+}
