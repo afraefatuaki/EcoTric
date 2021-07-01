@@ -1,0 +1,78 @@
+/* Palette: color: #EDEAE5;
+color: #222629;
+ color: #7EC012; */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222629;
+    color: #EDEAE5;
+    
+}
+.product-img{
+    width: 25vw;
+    border-radius: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #7EC012;
+    border-radius: 5px;
+    color: #EDEAE5;
+    border-color: #7EC012;
+    border-style: none;
+}
+button:hover{
+    background-color: #EDEAE5;
+    color: #222629;
+ 
+}
+/* -------- NAV + LOGO --------*/
+.logo{
+    width: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul{
+    margin: 0px;
+}
+nav{
+    border-bottom: 3px solid #EDEAE5;
+    position: fixed;
+    background-color: #222629;
+    left: 0;      
+    top: 0;       
+    width: 100%; 
+}
+.nav-item{
+ list-style: none;
+ margin-left: 4rem;
+ font-size: 1.2rem;
+}
+li a{
+   text-decoration: none;
+   color:#EDEAE5;
+}
+
+article{
+    margin-right: auto;
+    display: flex;
+    
+}
+.nav-item:last-child{
+margin-right: 5%;
+}
+h5{
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+/* -------- HERO --------*/
+.hero{
+    background: url(../img/Hero.png) center/cover  no-repeat;
+    height: 100vh;
+    
+}
+
+/* -------- Heiderlberg product --------*/
