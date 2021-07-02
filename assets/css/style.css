@@ -1,6 +1,8 @@
 /* Palette: color: #EDEAE5;
+color: #6B6E70;
 color: #222629;
  color: #7EC012; */
+
 body{
     margin: 0px;
     padding: 0px;
@@ -27,19 +29,21 @@ button:hover{
     color: #222629;
  
 }
+ul a{
+    text-decoration: none;
+    color:#EDEAE5;
+}
 /* -------- NAV + LOGO --------*/
 .logo{
     width: 90px;
 }
-nav ul{
+.nav-list{
+    margin: 0px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-ul{
-    margin: 0px;
-}
-nav{
+.nav-container{
     border-bottom: 3px solid #EDEAE5;
     position: fixed;
     background-color: #222629;
@@ -52,12 +56,8 @@ nav{
  margin-left: 4rem;
  font-size: 1.2rem;
 }
-li a{
-   text-decoration: none;
-   color:#EDEAE5;
-}
 
-article{
+.logo-container{
     margin-right: auto;
     display: flex;
     
@@ -65,7 +65,7 @@ article{
 .nav-item:last-child{
 margin-right: 5%;
 }
-article h5{
+.logo-container h5{
     margin-left: 3%;
     font-size: 20px;
 }
@@ -112,4 +112,43 @@ article h5{
 }
 .Easee-info{
     margin-right: 3%;
+}
+
+/* -------- Start FOOTER --------*/
+.footer-container{
+    padding: 5% 0;
+    background-color: #6B6E70;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.footer-container img{
+    width: 35px;
+    
+}
+.footer-container ul{
+    list-style: none;
+    line-height: 50px;
+    width: 25%;
+}
+.footer-container ul:first-child{
+    padding-left: 10%;
+    width: 5%;
+}
+.footer-container form{
+    width: 45%;
+}
+.footer-container article{
+    display: inline;
+    padding-left: 2%;
+}
+footer article img{
+    padding-top: 20px;
+}
+
+.footer-container input{
+    border-style: none;
+    border-radius: 5px;
+    width: 45%;
+    padding: 15px 0 15px 5px;
 }
