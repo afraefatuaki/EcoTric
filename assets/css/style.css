@@ -120,7 +120,7 @@ margin-right: 5%;
 
 /* -------- Start FOOTER --------*/
 .footer-container{
-    padding: 5% 0;
+    padding: 3% 0 2% 0;
     background-color: #6B6E70;
     display: flex;
     justify-content: space-around;
