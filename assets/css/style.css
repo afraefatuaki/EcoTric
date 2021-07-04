@@ -21,8 +21,6 @@ button{
     color: #EDEAE5;
     border-color: #7EC012;
     border-style: none;
-    margin-top:5%;
-    margin-left: 35%;
 }
 button:hover{
     background-color: #EDEAE5;
@@ -56,6 +54,9 @@ ul a{
  margin-left: 4rem;
  font-size: 1.2rem;
 }
+.nav-item:hover{
+    text-decoration: underline;
+}
 
 .logo-container{
     margin-right: auto;
@@ -78,6 +79,9 @@ margin-right: 5%;
 }
 
 /* Start default style for main */
+.home-btn{
+    margin: 5% 0 0 35%;
+}
 .product{
     margin: 8% 0;
 }
@@ -85,7 +89,7 @@ margin-right: 5%;
     line-height: 50px;
 }
 
-/* Ende default style for main */
+/* End default style for main */
 /* -------- Heiderlberg product --------*/
 .product-heidelberg{
     display: flex;
@@ -151,4 +155,43 @@ footer article img{
     border-radius: 5px;
     width: 45%;
     padding: 15px 0 15px 5px;
+}
+
+/* -------- Start Product main page --------*/
+/* ---- Start MAIN  ---- */
+.main-container{
+    padding: 6% 0 0 10%;
+    display: flex;
+}
+.main-container h3{
+    padding-top: 3%;
+}
+.main-container p{
+    width: 90%;
+    line-height: 35px;
+}
+.basket-btn{
+    margin: 0px 0px 4% 0px;
+}
+.rating-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+textarea{
+    width: 60%;
+    padding-bottom: 8.5%;
+    margin:1% 0 2% 0;
+    border-radius: 5px;
+}
+textarea:focus{
+    outline:none;
+    border: 2px solid #7EC012;
+    border-radius: 5px;
+}
+.main-container img{
+    height: 90vh;
+}
+.main-container section:last-child{
+    height:90vh; 
 }
