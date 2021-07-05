@@ -53,7 +53,7 @@
             <button type="button" class="basket-btn">Add to basket</button>
             <div class="rating-container">
                 <div>
-                    <span>-</span>/<span>-</span>
+                    <span id="counter">0/800</span>
                 </div>
                 <div>
                     <span class="fa fa-star checked"></span>
@@ -63,7 +63,8 @@
                     <span class="fa fa-star"></span>
                 </div>
             </div>
-            <textarea name="comment" form="usrform" placeholder="Enter text here..."></textarea><br>
+            <textarea name="comment" form="usrform" placeholder="Enter text here..." id="text" onkeyup="countChar(this)"
+                maxlength="800"></textarea><br>
             <button type="button">Details</button>
         </section>
         <section>
@@ -97,6 +98,7 @@
         </article><br>
     </footer>
     <!--==== End FOOTER ====-->
+    <script src="../js/counter.js"></script>
 </body>
 
 </html>

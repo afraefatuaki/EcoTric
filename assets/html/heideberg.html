@@ -64,7 +64,8 @@
                     <span class="fa fa-star"></span>
                 </div>
             </div>
-            <textarea name="comment" form="usrform" placeholder="Enter text here..." id="text"></textarea><br>
+            <textarea name="comment" form="usrform" placeholder="Enter text here..." id="text" onkeyup="countChar(this)"
+                maxlength="800"></textarea><br>
             <button type="button">Details</button>
         </section>
         <section>
@@ -98,7 +99,7 @@
         </article><br>
     </footer>
     <!--==== End FOOTER ====-->
-    <script src="../js/main.js"></script>
+    <script src="../js/counter.js"></script>
 </body>
 
 </html>
